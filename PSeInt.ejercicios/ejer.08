@@ -1,0 +1,32 @@
+Algoritmo Resolución_de_problema
+	//Según el ejercicio 260/12 + 54 % 3 - 85 % 7.
+	//Se van a asignar variables al ejercicio anteriormente presentado.
+	//Las variables asignar son:
+	//a=260 b=12, c=54, d=3, e=85, f=7, u=a/b + c % d - e % f.
+	//El ejercicio se resolvera de manera ordendaa primero las  multiplicaciones y divisiones de derecha
+	//a izquierda, y luegp las sumas y restas.
+	//La operción se presentara paso a paso.
+	Definir a, b, c, d, e, f Como Entero
+	Definir u Como Real
+	a=260
+	b=12
+	c=54
+	d=3
+	e=85
+	f=7
+	u=a/b + c Mod d - e MOD f
+	Escribir " La operación a realizar es: u=a/b + c % d - e % f. "
+	Escribir " El ejercicio se va a tener que resolver reemplazando los siguientes valores: "
+	Escribir " a=260 b=12, c=54, d=3, e=85, f=7 "
+	Escribir " A continuación se presentara paso a paso la resolución del ejercicio: "
+	Escribir " u= a/b + c Mod d - e MOD f "
+	Escribir " u= 260/12 + 54 Mod 3 - 85 Mod 7 "
+	Escribir " u= " a/b, " + ", c, " Mod ", d, " - ", e, " MOD ", f
+	Escribir  " u= " a/b, " + ", c  Mod  d, " - ", e, " MOD ", f
+	Escribir  " u= " a/b, " + ", c  Mod  d, " - ", e MOD  f
+	Escribir   " u= " a/b +  c  Mod  d  -  e MOD  f
+	Escribir " Después de reemplazar los valores en la operación u=a/b + c % d - e % f. "
+	Escribir " Obtenemos como resultado el siguiente valor: ", u
+	
+	
+FinAlgoritmo

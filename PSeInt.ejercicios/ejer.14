@@ -1,0 +1,15 @@
+Algoritmo Doble_de_un_número
+	//Según el número que se ingrese, se mostrará el doble de dicho número
+	//La operación que se realizará sera una multiplicación.
+	//n1*2
+	//n1 Se definirá como entero 
+	//Se lee el número
+	//Se ejecuta la operación
+	Definir n, n1 Como Entero
+	n1=0
+	n=n1*2
+	Escribir " Dado el número que usted ingrese, se mostrara su doble."
+	Leer n1
+	Escribir " El doble del número que usted ingreso es: "
+	Escribir n1*2
+FinAlgoritmo

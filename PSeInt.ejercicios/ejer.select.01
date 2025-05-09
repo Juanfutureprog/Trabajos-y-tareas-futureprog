@@ -1,0 +1,14 @@
+Algoritmo número_mayor
+	//Pedir al usuario ingresar un número.
+	//Mostrar si el número es mayor o menor que 10.
+	//Definir num1 como real.
+	Definir num1 Como Real
+	num1=0
+	Escribir " Ingrese número, para comprobar si dicho número es mayor o menor a 10: "
+	Leer num1
+	Si num1 > 10 Entonces
+		Escribir " El número ", num1, " es mayor a 10 "
+	SiNo
+		Escribir " El número ", num1, " es menor a 10 "
+	Fin Si
+FinAlgoritmo

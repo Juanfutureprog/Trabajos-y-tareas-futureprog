@@ -1,0 +1,23 @@
+Algoritmo verificar_si_los_nombres_son_iguales
+	//Verificar si los nombres son igules.
+	//Verificar si el primer nombre es mayor al segundo, o menor.
+	//Definir variables:
+	//nombre1, nombre2 se los va a definir como caracteres.
+	Definir mombre1, nombre2 Como Caracter
+	Escribir " Escriba el primer nombre."
+	Leer nombre1
+	Escribir " Escriba el segundo nombre." 
+	Leer nombre2
+	Escribir " Se verificará si los nombres son igules, "
+	Escribir " y también se sabrá si el primer nombre es mayor al segundo, o menor. "
+	Si nombre1=nombre2 Entonces
+		Escribir " Los nombres son iguales. "
+	SiNo
+		Si nombre1>nombre2 Entonces
+			Escribir " El primer nombre es mayor al segundo nombre. "
+		SiNo
+			Escribir " El primer nombre es menor al segundo nombre. "
+		Fin Si
+	Fin Si
+	
+FinAlgoritmo

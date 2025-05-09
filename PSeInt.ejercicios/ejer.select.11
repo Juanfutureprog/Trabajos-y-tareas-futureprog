@@ -1,0 +1,18 @@
+Algoritmo numero_de_un_digit0
+	//Pedir al ususrio un número.
+	//Leer número que el usuario inserto.
+	//Saber si el número es de un solo dígito.
+	//Mostrar resultado
+	//Definir variable
+	//Definir variable num como real
+	Definir num Como Real
+	Escribir " Ingrese un valor."
+	Leer num
+	Escribir " Se va a verificar si el número que se ingreso es de un de un solo digito o de dos."
+	Si num>=1 Y  num<10 Entonces
+		Escribir " El número que se ingreso contiene un solo dígito. " 
+	SiNo
+		Escribir " El número que se ingreso contiene más de un dígito. " 
+	Fin Si
+	FinAlgoritmo
+	

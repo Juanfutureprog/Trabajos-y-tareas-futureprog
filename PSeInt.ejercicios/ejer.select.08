@@ -1,0 +1,19 @@
+Algoritmo multiplo_de_3
+	//El usuario presentará un número y se va a mostrar si es multiplo de 3
+	//Se va a definir la variable número como real
+	//La variable número se representará en el siguiente ejercicio, para determinar si dicho número es multiplo de 3:
+	//número Mod 3 = 0
+	//Leer número
+	//Determinar si el número es múltiplo de 3.
+	Definir num Como Real
+	Escribir " Por favor digite un número. " 
+	Leer num
+	Escribir " Se va a determinar si dicho número es multiplo de 3."
+	Si num Mod 3 = 0 Entonces
+		Escribir " El número que usted digito es multiplo de 3 "
+	SiNo
+		Escribir " El número que usted digito no es multiplo de 3 "
+	Fin Si
+	
+	
+FinAlgoritmo

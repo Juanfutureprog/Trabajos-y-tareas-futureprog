@@ -1,0 +1,24 @@
+Algoritmo Encontrar_el_valor_de_v
+	//Dada la siguiente expresion matemática v = 2 * b + a div 2 + 4 * b mod a.
+	//Definir a,b y v como valores enteros.
+	//Asignar a = 8, b = 5, v = 2 * b + a div 2 + 4 * b mod a.
+	//Realizar la operación v = 2 * 5 + 8 div 2 + 4 * 5 mod 8.
+	Definir a,b,v Como Entero
+	a=8
+	b=5
+	v= 2 * b + trunc(a/2) + 4 * b mod a
+	Escribir " Según la operación v = 2 * b + a div 2 + 4 * b mod a, reemplazar a=8 y b=5."
+	Escribir " Después de remplazar los valores de a y b, se obtiene como resultado: ",v
+	Escribir " Ejercicio paso a paso: "
+	Escribir " v = 2 * b + a div 2 + 4 * b mod a "
+	Escribir " v = 2 * 5 + 8 div 2 + 4 * 5 mod 8 "
+	Escribir " v = ", 2 * b," + ",a," div ", 2," + ",4," * ", b, " mod ",a
+	Escribir " v = ", 2 * b," + ", trunc(a/2)," + ",4," * ", b, " mod ",a
+	Escribir " v = ", 2 * b," + ", trunc(a/2)," + ",4 * b, " mod ",a
+	Escribir " v = ", 2 * b," + ", trunc(a/2)," + ",4 * b mod a
+	Escribir  " v = ", 2 * b + trunc(a/2) + 4 * b mod a
+	
+
+	
+	
+FinAlgoritmo

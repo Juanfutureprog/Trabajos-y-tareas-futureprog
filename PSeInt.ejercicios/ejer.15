@@ -1,0 +1,17 @@
+Algoritmo edad_dentro_de_10_años
+	//Mostrar la edad que se tendra dentro de 10 años.
+	//Pedir o leer edad.
+	//Mostrar edad.
+	//Mostrar edad más 10 años.
+	//Definir age, ef como entero.
+	// Realizar la operación ef: edad + 10
+	//Mostrar age + 10
+	Definir age, ef Como Entero
+	age= 0
+	ef= age + 10
+	Escribir " Escriba su edad: "
+	Leer age
+	Escribir " A continuación se mostrara la edad que tendra dentro de 10 años: "
+	Escribir " Su edad dentro de 10 años es: "
+	Escribir age + 10
+FinAlgoritmo

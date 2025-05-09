@@ -1,0 +1,23 @@
+Algoritmo aplicar_descuento_de_un_vehiculo_segun_año
+	//Aplicar el descuento a auto según su año de fabricación.
+	//Si el año de la fabricación es anterior al 2010 se realiza el descuento.
+	//La formula que se va a aplicar será.
+	//precioFinal<- precio - (precio * descuento / 100)
+	//Se va definir año como caracter.
+	//Se va definir precio, descuento, precioFinal como valores reales.
+	Definir precio, descuento, precioFinal, año  Como Real
+	precio<- 0
+	descuento<- 10
+	precioFinal<- precio - (precio * descuento / 100)
+	Escribir " Ingrese el precio del vehiculo que desea adquirir."
+	Leer precio
+	Escribir " Ingrese el año de fabricación. "
+	Leer año
+	Escribir " Vamos a verificar si puede acceder a un descuento. "
+	Escribir " Nota: Solo se aplica el descuento si el año de fabricación es anterior al 2010. "
+	Si año < 2010 Entonces
+		Escribir " Felicidades ha obtenido un descuento al valor inicial, el valor final es:", precio - (precio * 10 / 100)
+	SiNo
+		Escribir" El año de fabricación del vehiculo no es anterior al 2010, no se aplica ningun descuento."
+	Fin Si
+FinAlgoritmo

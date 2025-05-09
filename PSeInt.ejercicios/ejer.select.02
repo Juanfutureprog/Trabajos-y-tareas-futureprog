@@ -1,0 +1,35 @@
+Algoritmo buscar_el_número_mayor
+	//Pedir al usuario ingresar 5 números
+	//Definir  num1, num2, num3, num4 , num5 como reales.
+	//Leer números.
+	//Definir que número es mayor de entre los 5 números.
+	//Mostrar número mayor
+	Definir num1, num2, num3, num4 , num5, mayor Como Real
+	Escribir" Escriba el primer número."
+	Leer num1
+	Escribir" Escriba el segundo número."
+	Leer num2
+	Escribir" Escriba el tercer número."
+	Leer num3
+	Escribir" Escriba el cuarto número."
+	Leer num4
+	Escribir" Escriba el quinto número."
+	Leer num5
+	Escribir " A continuación se va a presentar el número mayor de entre los 5 números. "
+	Si num1 > mayor Entonces
+		mayor<-num1
+	Fin Si
+	Si num2 > mayor Entonces
+		mayor<-num2
+	Fin Si
+	Si num3 > mayor Entonces
+		mayor<-num3
+	Fin Si
+	Si num4 > mayor Entonces
+		mayor<-num4
+	Fin Si
+	Si num5 > mayor Entonces
+		mayor<-num5
+	Fin Si
+	Escribir " El número mayor de entre los 5 números es: ", mayor
+	FinAlgoritmo

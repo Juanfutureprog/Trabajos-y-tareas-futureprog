@@ -1,0 +1,20 @@
+Algoritmo número_divisible_de_2
+	//El usuario presentará un número y se va a mostrar si es divisible por 2.
+	//Se va a definir la variable num como real
+	//La variable num se representará en el siguiente ejercicio, para determinar si dicho número es divisible por 2:
+	//número Mod 2 = 0
+	//Leer num
+	//Determinar si el número  es divisible por 2.
+	Definir num Como Real
+	Escribir " Por favor digite un número. " 
+	Leer num
+	Escribir " Se va a determinar si dicho número es divisible por 2."
+	Si num Mod 2 = 0 Entonces
+		Escribir " El número que planteo es divisible por 2. "
+	SiNo
+		Escribir  " El número que planteo no es divisible por 2. "
+	Fin Si
+	
+	
+FinAlgoritmo
+

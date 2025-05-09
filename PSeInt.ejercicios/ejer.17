@@ -1,0 +1,21 @@
+Algoritmo grados_celsius_a_fahrenheit
+	//Pasar de grados celsius a grados fahrenheit.
+	//Pedir ingresar grados celsius.
+	//Para pasar a grados fahrenhei, se realizará la siguiente operación:
+	//fahrenheit= celsius * 9/5 + 32
+	//Realizar la operación.
+	//Se va definir celsius, fahrenheit como reales.
+	Definir celsius, fahrenheit Como Real
+	celsius= 0
+	fahrenheit= celsius * 9/5 + 32
+	Escribir " Ingrese los grados celsius que desea cambiar a grados fahrenheit. "
+	Leer celsius
+	Escribir " Los grados celsius que usted desea cambiar son: ",celsius " grados."
+	Escribir " Para poder cambiar a grados fahrenheit se va utilizar la siguiente formula: "
+	Escribir " fahrenheit= celsius * 9/5 + 32 " 
+	Escribir " Obteniendo como resultado: ", celsius * 9 / 5 + 32
+	Escribir " Entonces: ", celsius," grados celsius, es igual a: ", celsius * 9/5 + 32, " grados fahrenheit. "
+	
+	
+	
+FinAlgoritmo

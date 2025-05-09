@@ -1,0 +1,22 @@
+Algoritmo multiplicación_de_dos_numeros
+	//Multiplicación de dos números.
+	//Definir num1, num2 como real.
+	//Definir multiplicación como real.
+	//Asignar el valor de 0 a num1, num2 variable
+	//num1=0, num2=0
+	//Leer números
+	//Presentar multiplicación de números
+	Definir num1, num2 Como Real
+	Definir multiplicación Como Real
+	num1=0
+	num2=0
+	multiplicación=0
+	Escribir " Por favor ingrese su primer número."
+	Leer num1
+	Escribir " Escriba el segundo número. "
+	Leer num2
+	Escribir " multiplicación: ", num1,"*", num2
+	Escribir " multiplicación: ", num1*num2
+	Escribir " El resultado de la multiplicación es: ", num1*num2
+FinAlgoritmo
+

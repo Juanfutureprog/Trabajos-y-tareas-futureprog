@@ -1,0 +1,24 @@
+Algoritmo union_de_palbras
+	//Pedir dos palabras y luego unirlas.
+	//Definir palabra1, palbra2 como varibles de caracter.
+	//Mostar en la pantalla:" Por favor escriba la primera palabra."
+	//leer palabra1
+	//Mostrar en la pantalla " Escriba la segunda palabra. "
+	//leer palabra2
+	//Motrar en la pantalla " La primera palabra que usted a escrito es: ", palabra1
+	//Motrar en la pantalla " Y la segunda palabra que usted  escribio fue: ", palabra2
+	//Motrar en la pantalla " A continuación se presenta la unión de ambas palabras: ",palabra1,palabra2
+	Definir palabra1, palabra2 Como Caracter
+	Escribir " Por favor escriba la primera palabra."
+	Leer palabra1
+	Escribir " Escriba la segunda palabra. "
+	Leer palabra2
+	Escribir " La primera palabra que usted a escrito es: ", palabra1
+	Escribir  " Y la segunda palabra que usted  escribio fue: ", palabra2
+	Escribir " A continuación se presenta la unión de ambas palabras: "
+	Escribir palabra1, palabra2
+	
+	
+FinAlgoritmo
+
+

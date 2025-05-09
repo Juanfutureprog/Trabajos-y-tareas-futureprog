@@ -1,0 +1,17 @@
+Algoritmo número_mayor_menor_o_igual_100
+	//Pedir al usuario ingresar un número.
+	//Mostrar si el número es mayor, menor o igual a 100.
+	//Definir num1 como real.
+	Definir num1 Como Real
+	Escribir " Por favor ingrese un número, para comprobar si dicho número es mayor, menor o igual a 100: "
+	Leer num1
+	Si num1>100 Entonces
+		Escribir " El número ", num1, " es mayor a 100 "
+		Fin Si
+		Si num1< 100 Entonces
+			Escribir " El número ", num1, " es menor a 100 "
+		FinSi
+		Si num1=100 Entonces
+			Escribir " El número es igual a 100. "
+	Fin Si
+FinAlgoritmo

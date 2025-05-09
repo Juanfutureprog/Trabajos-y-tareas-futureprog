@@ -1,0 +1,16 @@
+Algoritmo aplicar_iva_a_factura
+	//Aplicar el IVA al monto total de una factura.
+	//la formula que se va a aplicar será:
+	//total<- monto + (monto * iva / 100).
+	//Se va definir total, monto, iva como valores reales.
+	Definir monto, iva, total Como Real
+	monto<- 0
+	iva<- 0
+	total<- monto + (monto * iva / 100)
+	Escribir " Ingrese el valor total de la factura de los productos que compro."
+	Leer monto
+	Escribir " Ingrese el IVA que se va a aplicar al valor total de su cuenta. "
+	Leer iva
+	Escribir " El valor total a pagar más IVA incluido es:"
+	Escribir " Monto total= ", monto + (monto * iva / 100)
+FinAlgoritmo

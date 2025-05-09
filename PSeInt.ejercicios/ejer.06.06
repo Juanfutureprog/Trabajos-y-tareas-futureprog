@@ -1,0 +1,33 @@
+Algoritmo Operación_matemática
+	//Operar el siguiemte enunciado matemático:( 5 + 3 * 2) + 9 > 3 * 5 * 14 % 3
+	//La siguiente operación se va a realizar para confirmar si es verdadero o falso
+	//La operación se va ejecutando segun la jerarquia de las operaciones,empezando con los parentesis,
+	//despues con las multiplicaciones y divisiones, siempre de derecha a izquierda.
+	//Pocedemos a definir variables:
+	//a=5, b=2, c=3, d=9, e=14,x= ( a + c - b) + d > c * a * e % c
+	//Estas variables se definiran como enteros
+	//Después de la operación se verificara si el enunciado es verdadero o falso
+	Definir a, b, c, d, e Como entero
+	Definir x Como logico
+	a=5
+	b=2
+	c=3
+	d=9
+	e=14 
+	x= ( a + c - b) + d > c * a * e Mod c
+	Escribir " Se confirmara si el siguiente enunciado es verdader o falso: x= ( a + c - b) + d > c * a * e Mod c. "
+	Escribir " Remplazando los siguientes valores: a=5, b=2, c=3, d=9, e=14,a=5, b=2, c=3, d=9, e=14. "
+	Escribir " La expresión se realizará paso a paso: "
+	Escribir " x= ( a + c - b) + d > c * a * e mod c "
+	Escribir " x= ( 5 + 3 * 2) + 9 > 3 * 5 * 14 mod 3 "
+	Escribir " x= "  ( a + c - b)," + ", d," > ", c * a," * ", e, " mod ",c
+	Escribir " x= "  ( a + c - b) +  d," > ", c * a * e," mod ", c
+	Escribir " x= "  ( a + c - b) +  d," > ", c * a * e mod  c
+	Escribir " Después de realizar la operación nos queda comp resultado: "," x= "  ( a + c - b) +  d," > ", c * a * e mod  c
+	Escribir " Eso quiere decir que el enunciado es: ", x
+FinAlgoritmo
+
+	
+
+	
+	

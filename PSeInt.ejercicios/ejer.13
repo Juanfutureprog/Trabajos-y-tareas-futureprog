@@ -1,0 +1,21 @@
+Algoritmo division_de_dos_numeros
+	//División de dos números.
+	//Definir num1, num2 como real.
+	//Definir división como real.
+	//Asignar el valor de 0 a num1, num2 variable
+	//num1=0, num2=0
+	//Leer números
+	//Presentar división de números
+	Definir num1, num2 Como Entero
+	Definir división Como Entero
+	num1=0
+	num2=0
+	Escribir " Por favor ingrese su primer número."
+	Leer num1
+	Escribir " Escriba el segundo número. "
+	Leer num2
+	Escribir " división: ", num1,"/", num2
+	Escribir " división: ", num1/num2
+	Escribir " El resultado de la división es: ", num1/num2
+FinAlgoritmo
+

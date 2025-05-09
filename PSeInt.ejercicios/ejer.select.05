@@ -1,0 +1,15 @@
+Algoritmo números_iguales_o_diferente
+		//Pedir al usuario ingresar dos números.
+		//Mostrar si los números son iguales o diferentes.
+		//Definir num1, num 2 como reales.
+		Definir num1, num2	Como Real
+		Escribir " Ingrese dos números, para comprobar la igualdad o diferencia de dichos números. "
+		Leer num1
+		Leer num2
+		Si num1=num2 Entonces
+			Escribir " Los números son iguales."
+		SiNo
+			Escribir " Los números son diferentes. "
+			Fin Si
+FinAlgoritmo	
+	

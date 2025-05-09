@@ -1,0 +1,11 @@
+Algoritmo Presentacion
+	//Ingresar nombre y saludar
+	//Definir variables:
+	// Definir nombre como caracter
+	//Leer nombre, depues escribir saludo más nombre.
+	Definir name Como Caracter
+	Escribir "Escriba su nombre"
+	Leer name
+	Escribir " Hola que tal,tu nombre es " ,name, " ,es un gusto tenerte por aqui. "
+	
+FinAlgoritmo

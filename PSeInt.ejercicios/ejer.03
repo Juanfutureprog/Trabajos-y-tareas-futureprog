@@ -1,0 +1,23 @@
+Algoritmo Determinar_el_valor_de_w
+	//Dada la siguiente expresion matemática w = a - b + 2 * a mod b.
+	//Definir a,b y w como valores enteros.
+	//Asignar a = 6, b = 2, w = a - b + 2 * a mod b.
+	//Realizar la operación w = 6 - 2 + 2 * 6 mod 2.
+	Definir a,b,w Como Entero
+	a=6
+	b=2
+	w = a - b + 2 * a mod b
+	Escribir " En la siguinte operación, determine el valor de w = a - b + 2 * a mod b, donde se reemplazara a=6 y b=2."
+	Escribir " Después de realizar la operción w = 6 - 2 + 2 * 6 mod 2, se obtiene como resultado: ",w
+	Escribir " Ejercicio paso a paso:"
+	Escribir " w = a - b + 2 * a mod b "
+	Escribir "  w = 6 - 2 + 2 * 6 mod 2 "
+	Escribir  " w = ", a, " - ",b," + ",2 * a, " mod " b 
+	Escribir " w = ", a, " - ",b," + ",2 * a mod  b
+	Escribir " w = ", a, " - ",b + 2 * a mod  b
+	Escribir  " w = ", a - b + 2 * a mod  b
+	
+	
+FinAlgoritmo
+	
+

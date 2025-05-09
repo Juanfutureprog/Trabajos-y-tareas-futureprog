@@ -1,0 +1,12 @@
+Algoritmo nombre_3_veces
+	//Pedir nombre
+	//Mostrar 3 veces el nombre.
+	//Definir nombre como caracter
+	Definir nombre Como Caracter
+	Escribir " Escriba su nombre."
+	Leer nombre
+	Escribir " Se va a mostrar su nombre tres veces en la pantalla: "
+	Escribir nombre
+	Escribir nombre
+	Escribir nombre
+FinAlgoritmo

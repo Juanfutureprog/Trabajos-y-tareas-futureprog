@@ -1,0 +1,16 @@
+Algoritmo par_o_impar
+	//Pedir número y saber si es impar o par.
+	//Leer número ingresado.
+	//Determinar si es par o impar.
+	//Definir num como real.
+	//Mostrar si es par o impar.
+	Definir num Como Real
+	Escribir " Ingrese número. "
+	Leer num
+	Escribir " Se va a verificar si el número ingresado es par o impar."
+	Si num Mod 2=0 Entonces
+		Escribir " El número que usted ingreso es par."
+	SiNo
+		Escribir " El número que usted ingreso es impar. "
+	Fin Si
+	FinALgoritmo

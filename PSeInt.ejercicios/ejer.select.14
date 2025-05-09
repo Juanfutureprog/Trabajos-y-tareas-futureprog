@@ -1,0 +1,17 @@
+Algoritmo reprobacion_o_aprobacion
+	//Pedir al usuario ingresar la nota que ha obtenido en un exámen.
+	//Segun la nota se reflejara si aprobo o no.
+	//La nota minima para poder pasar es sobre 60
+	//Definir nota como valor real
+	Definir nota Como Real
+	nota<- 0
+	Escribir " Ingrese su nota por favor: "
+	Leer nota
+	Si nota>=60 Entonces
+		Escribir "Su nota es: ",nota, " .Usted se encuentra aprobado. "
+	SiNo
+		Escribir "Su nota es: ",nota, ".Usted se encuentra reprobado. "
+	Fin Si
+	
+	
+FinAlgoritmo

@@ -1,0 +1,21 @@
+ Algoritmo Encontrar_el_valor_de_u
+	//Dada la siguiente expresion matemática u = b - a + 3 * a mod b.
+	//Definir a,b y x como valores enteros.
+	//Asignar a = 12, b = 9, u = b - a + 3 * a mod b. 
+	//Realizar la operación u = 9 - 12 + 3 * 12 mod 9. 
+	Definir a,b,x Como Entero
+	a=12
+	b=9
+	u = b - a + 3 * a mod b
+	Escribir " Encontar el valor de la siguiente operación u = b - a + 3 * a mod b, dado los siguientes valores a=12 y b=9"
+	Escribir " Al reemplazar los siguientes valores, se obtiene como resultado:", u
+	Escribir " Ejercicio paso a paso: "
+	Escribir " u = b - a + 3 * a mod b "
+	Escribir " u = 9 - 12 + 3 * 12 mod 9 "
+	Escribir " u = ", b, " - ", a, " + ", 3 * a, " mod ", b 
+	Escribir  " u = ", b, " - ", a, " + ", 3 * a mod b 
+	Escribir " u = ", b - a + 3 * a mod b 
+	
+	
+	
+FinAlgoritmo

@@ -1,0 +1,27 @@
+Algoritmo operación_lógica
+	//Se plantea la siguiente operación: R=((8 > 2) O (932 < 23)) YY 4 Mod 2 ^ 2 == 2
+	//Comprobar si es verdadero falso.
+	//Se le asignara las siguientes variables al problema:
+	//a=8, b=2, c=932, d=23, e=4,  R=((a > b) O (c < d)) YY e Mod b^ b == 2
+	//Rpresentar las variables presentadas en el problema
+	//Ejecutar las variables en el caso presentado
+	//Mostrar el problema resueelto paso a paso
+	Definir a, b, c, d, e Como Entero
+	Definir R Como Logico
+	a=8
+	b=2
+	c=932
+	d=23
+	e=4
+	R=((a > b) O (c < d)) && e Mod b ^ b == 2
+	Escribir " Dada la siguiente expresión:R=((a > b) O (c < d)) && e Mod b ^ b == 2, reemplazar los siguientes datos. "
+	Escribir " a=8, b=2, c=932, d=23, e=4 "
+	Escribir " Una vez reemplazados los datos, operar y verificar si la condición es verdadera o falsa. "
+	Escribir " A continuación se presenta el prolema resuelto paso a paso: "
+	Escribir " R=((a > b) O (c < d)) && e Mod b ^ b == 2"
+	Escribir " R=((8 > 2) O (932 < 23)) &&  4 Mod 2 ^ 2 == 2 "
+	Escribir " R= "," ( ",(a > b)," O ", (c < d)," ) ", " && ", e, " Mod ", b ^ b, "== 2" 
+	Escribir " R= ", ( (a > b) O  (c < d) ), " && ", e  Mod b ^ b, "== 2" 
+	Escribir " R= ", ( (a > b) O  (c < d) )  &&  e  Mod b ^ b == 2 
+	Escribir " Después de haber reemplazado y realizado el ejercicio obtenemos como resultado que la expresión es:", R
+FinAlgoritmo

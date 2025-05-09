@@ -1,0 +1,17 @@
+Algoritmo positivo_o_negativo
+	//Vamos a determinar si el valor que se va a ingresar es negativo o postivo.
+	//Se va a determinar de la siguiente manera:
+	//num>0:positivo
+	//num<0:negativo
+	//Se va definir num como real
+	Definir num Como Real
+	Escribir " Digite su número. "
+	Leer num
+	Escribir" Se va a comprobar si el número es positivo o negativo "
+	Si num>0 Entonces
+		Escribir " El número que usted digito es positivo."
+	SiNo
+		Escribir " El número que usted digito es negativo."
+	Fin Si
+FinAlgoritmo
+

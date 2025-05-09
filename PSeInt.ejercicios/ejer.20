@@ -1,0 +1,16 @@
+Algoritmo m_a_cm
+	//Pedir distancia en metros y luego pasarla a centímetros
+	//La distancia en metros se la pasará a centímetros de la siguiente manera:
+	//cm= m*100
+	//Se definirá m y cm como reales
+	Definir m, cm Como Real
+	m= 0
+	cm= m*100
+	Escribir " Ingrese la distancia en metros que desea convertir a centímetros."
+	Leer m
+	Escribir " La formula que se va a utilizar será: cm= m * 100 "
+	Escribir " cm= ", m," m ", " * 100 "
+	Escribir " cm= ", m * 100," cm "
+	Escribir " Después de realizar la operación, se obtiene que ", m, " m ", "es igual a ", m * 100," cm."
+FinAlgoritmo
+

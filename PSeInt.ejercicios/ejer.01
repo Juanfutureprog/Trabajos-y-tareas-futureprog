@@ -1,0 +1,20 @@
+Algoritmo Encontrar_el_valor_de_x
+	//Dada la siguiente expresion matemática x = 2 * a + b - a mod 3.
+	//Definir a,b y x como valores enteros.
+	//Asignar a = 3, b = 7, x = 2 * a + b - a MOD 3
+	//Realizar la operación x = 2 * 3 + 7 - 3 mod 3
+	Definir a,b,x Como Entero
+	a=3
+	b=7
+	x= 2 * a + b - a MOD 3
+	Escribir " En la siguinte operación  x = 2 * a + b - a mod 3, se reemplazara a=3 y b=7."
+	Escribir " El resultado de la operación x = 2 * 3 + 7 - 3 mod 3, es: ",x
+	Escribir " Ejercicio paso a paso "
+	Escribir " x = 2 * a + b - a mod 3 "
+	Escribir " x = 2 * 3 + 7 - 3 mod 3 "
+	Escribir  " x= ",2 * a, " + ",b," - ", a, " mod ",3
+	Escribir " x = " 2 * a, " + ",b," - " a mod 3
+	Escribir " x= " 2 * a + b, " - " a mod 3
+	Escribir " x= " 2 * a + b - a mod 3
+	
+FinAlgoritmo

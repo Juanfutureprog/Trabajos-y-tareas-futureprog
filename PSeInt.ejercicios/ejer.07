@@ -1,0 +1,31 @@
+Algoritmo Operación_matemática
+	//Dada la siguiente operación matemática z= 2 * (4 - 10 + 8)/2* 36 *(1/2).
+	//Se definiran variables para que el ejercicio sea más claro.
+	//Las variables que se van a definir son:
+	//a=1, b=2, c=4, d=8, e=10, f=36, z=b * (c - e + d)/b* f *(a/b).
+	//El orden de la operacion seguira la jerarquia correcta donde se realizara pimero
+	//lo que se encuentra dentro del parentesis, depués las multiplicaciones y divisiones, y por ultimo las
+	//sumas y restas.
+	//La operción se presentara paso a paso.
+	Definir a, b, c, d, e, f, z Como Entero
+	a=1
+	b=2
+	c=4 
+	d=8
+	e=10 
+	f=36
+	z=b * (c - e + d)/b* f *(a/b)
+	Escribir " La operación a realizar será z= b * (c - e + d)/b* f *(a/b). "
+	Escribir " Para poder efectuar la operación se tomaran en cuenta los siguientes datos: "
+	Escribir " Datos a reemplazar: a=1, b=2, c=4, d=8, e=10, f=36. "
+	Escribir " La operación se mostrara paso a paso de forma ordenada: "
+	Escribir " z= b * (c - e + d)/b* f *(a/b) "
+	Escribir " z= 2 * (4 - 10 + 8)/2* 36 *(1/2) "
+	Escribir " z= ",b, "*" (c - e + d)," / ",b," * ",f," * ",(a/b)
+	Escribir " z= ",b * (c - e + d)," / ",b," * ",f," * ",(a/b)
+	Escribir " z= ",b * (c - e + d) / b," * ",f," * ",(a/b)
+	Escribir " z= ",b * (c - e + d) / b * f," * ",(a/b)
+	Escribir " z= ",b * (c - e + d) / b * f * (a/b)
+	Escribir " El resultado de la operación z= 2 * (4 - 10 + 8)/2* 36 *(1/2), es:", z
+FinAlgoritmo
+

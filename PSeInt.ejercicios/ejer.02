@@ -1,0 +1,21 @@
+Algoritmo Calcular_el_valor_de_z
+	//Dada la siguiente expresion matemática z = a * b + 3 mod a + b.
+	//Definir a,b y z como valores enteros.
+	//Asignar a = 10, b = 4, z = a * b + 3 mod a + b.
+	//Realizar la operación z = 10 * 4 + 3 mod 10 + 4.
+	Definir a,b,z Como Entero
+	a=10
+	b=4
+	z = a * b + 3 Mod a + b
+	Escribir " Dada la siguiente expresión matemática z = a * b + 3 mod a + b., se reemplazara a=10 y b=4."
+	Escribir " Realizando la operación z = 10 * 4 + 3 mod 10 + 4, se obtiene como resultado:", z
+	Escribir " Ejercicio paso a paso: "
+	Escribir "z = a * b + 3 mod a + b "
+	Escribir " z = 10 * 4 + 3 mod 10 + 4 "
+	Escribir " z= ", a," * ", b," + "," 3 mod ",a," + ",b
+	Escribir " z= ", a * b," + "," 3 mod ",a," + ",b
+	Escribir " z= ", a * b," + ",3 mod a," + ",b
+	Escribir  " z= ", a * b + 3 mod a + b
+
+FinAlgoritmo
+

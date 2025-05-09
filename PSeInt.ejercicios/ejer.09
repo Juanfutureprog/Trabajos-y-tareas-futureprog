@@ -1,0 +1,29 @@
+Algoritmo solucióm_lógica
+	//Se nos plantea el siguiente problema: (48 < 2 * 3) O ( 2 * 7 < 12 )
+	// Tenemos que verificar si al menos un enunciado del problema es verdadero.
+	//Si se llega a cumplir entonces el enunciado es verdadero.
+	//Caso contrario es falso.
+	//Vamos a definir las variables para que el problema sea mucho más entendible:
+	//Variables a utilizar:
+	//a=2, b=3, c=7, d=12, e=48, x=(e < a * b) O ( a * c < d)
+	//El problema se presentará paso a paso, hasta llegar al resultado final.
+    Definir a, b, c, d, e Como Entero
+	Definir x Como Logico
+	a=2
+	b=3
+	c=7
+	d=12
+	e=48
+	x=(e < a * b) O ( a * c < d)
+	Escribir " Se va revisar si la operación combinada:x=(e < a * b) O ( a * c < d) es verdadera o falsa. "
+	Escribir " Para que la operación sea verdadera uno de los dos enunciados se debe cumplir."
+	Escribir " A continuación se va a presentar la operación resuelta paso a paso, para saber si cumple con la condición. "
+	Escribir " x= (e < a * b) O ( a * c < d) "
+	Escribir " x= (48 < 2 * 3) O ( 2 * 7 < 12 ) "
+	Escribir  " x= ", " ( ",e, " < ", a * b," ) ", " O "," ( ", a * c, " < ",d," ) "
+	Escribir  " x= ", " ( ",e  <  a * b," ) ", " O "," ( ", a * c  < d," ) "
+	Escribir " x= ",  ( e  <  a * b )   O  (  a * c  < d )
+	Escribir " La condición no se cumple en ninguna parte entonces el resultado es: ", x
+
+	
+FinAlgoritmo

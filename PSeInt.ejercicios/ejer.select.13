@@ -1,0 +1,17 @@
+Algoritmo aplicar_descuento_a_precio
+	//Aplicar el descuento a un precio.
+	//la formula que se va a aplicar será:
+	//precioFinal<- precio - (precio * descuento / 100)
+	//Se va definir precio, descuento, precioFinal como valores reales.
+	Definir precio, descuento, precioFinal  Como Real
+	precio<- 0
+	descuento<- 0
+	precioFinal<- precio - (precio * descuento / 100)
+	Escribir " Ingrese el precio del producto."
+	Leer precio
+	Escribir " Ingrese el descuento que se va a aplicar al precio del producto. "
+	Leer descuento
+	Escribir " El valor total con descuento aplicado es: "
+	Escribir " Valor total= ",  precio - (precio * descuento / 100)
+FinAlgoritmo
+
